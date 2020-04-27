@@ -17,12 +17,19 @@
       width: 48%;
       padding-left: 1%;
 
+      @media @tablet {
+        .mediaflex();
+      
+
       img {
         border-radius: 10px;
+        @media @tablet {
+          .mediaflex();
       }
     }
   }
-
+}
+  
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
@@ -44,6 +51,11 @@
 
     img {
       border-radius: 10px;
+
+        @media @tablet {
+          .mediaflex();
+          width: 75%;
+    }
     }
   }
 
